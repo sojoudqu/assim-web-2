@@ -1,0 +1,408 @@
+/* Basic CSS Reset */
+
+/* تنسيق القسم الخاص بـ "Sojoud Qusini" */
+#about {
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* تنسيق قسم الهوايات */
+#hobbies {
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* التأكد من أن القسم ليس محدودًا في الارتفاع */
+}
+
+#hobbies ul {
+    list-style-type: none; /* إزالة النقاط من قائمة الهوايات */
+    padding: 0;
+}
+
+#hobbies li {
+    margin-bottom: 20px; /* إضافة مسافة بين كل عنصر */
+    text-align: center; /* محاذاة النص داخل العناصر إلى المنتصف */
+}
+
+#hobbies img {
+    max-width: 200px; /* تحديد الحد الأقصى لحجم الصورة */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    margin-top: 10px; /* إضافة مسافة بين الصورة والنص */
+}
+
+
+.hobby-content {
+    display: none; /* مخفي في البداية */
+}
+
+li:hover .hobby-content {
+    display: block; /* يظهر المحتوى عند الإشارة بالماوس */
+}
+
+img {
+    width: 300px; /* ضبط عرض الصور */
+    max-width: 100%; /* تجعل الصور متجاوبة مع حجم الشاشة */
+    display: inline-block; /* تجعل الصورة تظهر بجوار الاسم */
+    margin-left: 10px; /* إضافة مسافة بين الاسم والصورة */
+}
+
+/* تنسيق القسم الخاص بالأهداف المستقبلية */
+#goals,
+#project {
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* التأكد من أن القسم ليس محدودًا في الارتفاع */
+    margin-top: 20px; /* إضافة مسافة بين الأقسام */
+}
+
+#goals p,
+#project a {
+    margin-top: 10px; /* إضافة مسافة بين النص والروابط */
+}
+
+/* تنسيق قسم "Sojoud Qusini" */
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about h1 {
+    margin-bottom: 20px; /* إضافة مسافة بين العنوان والنص */
+}
+
+#about p {
+    margin-top: 10px; /* إضافة مسافة بين النص الأول والنص الثاني */
+}
+
+/* تنسيق قسم الهوايات */
+#hobbies {
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px; /* إضافة مسافة بين العنوان والصور */
+}
+
+#hobbies h2 {
+    margin-bottom: 20px; /* إضافة مسافة بين العنوان والصور */
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hobbies li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hobbies img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* تنسيق قسم "Sojoud Qusini" */
+#about h1 {
+    font-size: 40px; /* تغيير حجم الخط إلى 48 بكسل */
+    margin-bottom: 20px; /* الحفاظ على المسافة بين العنوان والنص */
+}
+
+/* تنسيق النص داخل قسم "Sojoud Qusini" */
+#about p {
+    font-size: 35px; /* تغيير حجم الخط إلى 24 بكسل */
+    margin-top: 10px; /* الحفاظ على المسافة بين العنوان والنص */
+}
+
+/* تنسيق العنوان في قسم الهوايات */
+#hobbies h2 {
+    font-size: 40px; /* تغيير حجم الخط إلى 36 بكسل */
+    margin-bottom: 20px; /* إضافة مسافة بين العنوان والصور */
+}
+
+/* تنسيق أسماء الهوايات */
+#hobbies li {
+    font-size: 25px; /* تغيير حجم الخط إلى 24 بكسل */
+    margin-bottom: 20px; /* إضافة مسافة بين العناصر */
+    text-align: center; /* محاذاة النص إلى المنتصف */
+}
+
+#hobbies img {
+    max-width: 300px; /* الحفاظ على حجم الصورة */
+    height: auto;
+    margin-top: 15px; /* إضافة مسافة بين الصورة والنص */
+}
+
+/* تنسيق الوصف بالقرب من الصور */
+#hobbies .hobby-content {
+    font-size: 12px; /* تصغير حجم الخط إلى 12 بكسل */
+    color: #555; /* اللون الرمادي الفاتح */
+    margin-top: 2px; /* تقليل المسافة بين الصورة والوصف إلى 2 بكسل */
+    text-align: center; /* محاذاة النص إلى المنتصف */
+}
+
+/* تكبير حجم الصور */
+#hobbies img {
+    max-width: 500px; /* تكبير الصورة إلى 300 بكسل (يمكن تعديل الحجم حسب الحاجة) */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    margin-top: 10px; /* مسافة بين الصورة والنص */
+}
+
+
+/* جعل القائمة أفقية باستخدام Flexbox */
+ul {
+    display: flex;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0;
+}
+
+li {
+    margin-right: 20px; /* إضافة مسافة بين كل هواية */
+}
+
+/* إخفاء وصف الهواية بشكل افتراضي */
+.hobby-content {
+    display: none;
+}
+
+/* إظهار الوصف عند تمرير المؤشر على الرابط */
+li a:hover + .hobby-content {
+    display: block;
+}
+
+
+/* جعل القائمة أفقية باستخدام Flexbox */
+ul {
+    display: flex;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0;
+}
+
+li {
+    margin-right: 20px; /* إضافة مسافة بين كل هواية */
+}
+
+/* تعيين حجم موحد للصور */
+li img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* لجعل الصورة متناسبة داخل الإطار */
+}
+
+/* إخفاء وصف الهواية بشكل افتراضي */
+.hobby-content {
+    display: none;
+}
+
+/* إظهار الوصف عند تمرير المؤشر على الرابط */
+li a:hover + .hobby-content {
+    display: block;
+}
+
+/* جعل القائمة أفقية باستخدام Flexbox */
+ul {
+    display: flex;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0;
+}
+
+li {
+    margin-right: 20px; /* إضافة مسافة بين كل هواية */
+    text-align: center; /* توسيط النص داخل كل عنصر */
+}
+
+/* تعيين حجم موحد للصور */
+li img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* لجعل الصورة متناسبة داخل الإطار */
+}
+
+/* إخفاء وصف الهواية بشكل افتراضي */
+.hobby-content {
+    display: none;
+}
+
+/* إظهار الوصف عند تمرير المؤشر على الرابط */
+li a:hover + .hobby-content {
+    display: block;
+}
+
+/* جعل القائمة أفقية باستخدام Flexbox */
+ul {
+    display: flex;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0;
+}
+
+li {
+    margin-right: 20px; /* إضافة مسافة بين كل هواية */
+    position: relative; /* ضروري لتمكين position:absolute في العنصر الداخلي */
+    text-align: center; /* توسيط النص داخل كل عنصر */
+}
+
+/* تعيين حجم موحد للصور */
+li img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* لجعل الصورة متناسبة داخل الإطار */
+}
+
+/* إخفاء وصف الهواية بشكل افتراضي */
+.hobby-content {
+    display: none;
+    position: absolute;
+    bottom: -200px; /* تعديل هذه القيمة لتحديد المسافة بين الوصف والصورة */
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* خلفية لتسهيل قراءة الوصف */
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.0);
+}
+
+/* إظهار الوصف عند تمرير المؤشر على الرابط */
+li a:hover + .hobby-content {
+    display: block;
+}
+
+/* تغيير لون خلفية صندوق الإدخال */
+input[type="text"] {
+    background-color: #f0e7ee; /* اللون الخلفي للصندوق */
+    border: 2px solid #edb2dd; /* تغيير لون الإطار */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px; /* إضفاء حواف دائرية */
+    width: 300px; /* تعيين العرض حسب الحاجة */
+}
+
+input[type="text"]:focus {
+    background-color: #f6cbeb; /* اللون الخلفي عند التحديد */
+    border-color: #dfb7d5; /* الحفاظ على نفس لون الإطار عند التحديد */
+    outline: none; /* إزالة الخط الخارجي الافتراضي */
+}
+
+/* تعديل لون خلفية المربع السكني في قسم "Guess My Favorite Hobby" */
+#form {
+    background-color: #d4a1d1; /* اللون الخلفي للمربع */
+    padding: 20px;
+    border-radius: 10px; /* إضفاء حواف دائرية للمربع */
+    width: 100%;
+    max-width: 400px; /* تعيين الحد الأقصى لعرض المربع */
+    margin: 20px auto; /* توسيط المربع */
+    box-shadow: 0px 4px 10px rgba(82, 20, 56, 0.2); /* إضافة ظل خفيف */
+}
+
+#form h2 {
+    color: #70235e; /* تعديل لون العنوان داخل المربع */
+}
+
+#form label {
+    color: #70235e; /* تعديل لون النص */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3bbf5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+nav ul {
+    background-color: #6c2367;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(233, 198, 227);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #70235e;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: rgb(250, 213, 252);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #27001c;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #600049;
+    color: rgb(254, 218, 246);
+}

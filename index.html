@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sojoud Qusini Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+<body>
+    <!-- Menu bar -->
+    <nav>
+        <ul>
+            <li><a href="#about"><b>About Me</b></a></li>
+            <li><a href="#hobbies"><b>Hobbies</b></a></li>
+            <li><a href="#goals"><b>Future Goals</b></a></li>
+            <li><a href="#project"><b>Project</b></a></li>
+        </ul>
+    </nav>
+
+    <!-- Section: About Me -->
+    <section id="about">
+        <h1>Sojoud Qusini</h1>
+        <p>Hello! I am Sojoud Qusini. I am a student at An-Najah University.</p>
+    </section>
+
+    <!-- Section: Hobbies -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+       <ul>
+            <!-- التصوير الفوتوغرافي -->
+            <li>
+                <a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%88%D9%8A%D8%B1_%D8%B6%D9%88%D8%A6%D9%8A" target="_blank">Photography</a>
+                <img src="/photographer-1.jpg" alt="Hobby 1" onerror="this.src='fallback-hobby1.jpg';">
+                <div class="hobby-content">
+                    Capturing moments through the lens, experimenting with lighting, angles, and nature shots.
+                </div>
+            </li>
+
+            <!-- السباحة -->
+            <li>
+                <a href="https://ar.wikipedia.org/wiki/%D8%B3%D8%A8%D8%A7%D8%AD%D8%A9" target="_blank">Swimming</a>
+                <img src="/330px-Fm_stirling_pool.jpg" alt="Hobby 2" onerror="this.src='fallback-hobby2.jpg';">
+                <div class="hobby-content">
+                    Enjoying the rhythm of the water, it's a refreshing way to stay active and improve endurance.
+                </div>
+            </li>
+
+            <!-- الرسم -->
+            <li>
+                <a href="https://ar.wikipedia.org/wiki/%D8%B1%D8%B3%D9%85" target="_blank">Drawing</a>
+                <img src="/تنزيل.jpg" alt="Hobby 3" onerror="this.src='fallback-hobby3.jpg';">
+                <div class="hobby-content">
+                    Expressing creativity by sketching detailed scenes, characters, or abstract designs.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section: Form for guessing favorite hobby -->
+    <section id="form">
+        <h2>Guess My Favorite Hobby</h2>
+        <form action="#">
+            <label for="hobby-guess">Which hobby do you think is my favorite?</label><br>
+            <input type="text" id="hobby-guess" name="hobby-guess" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Section: Future Goals -->
+    <section id="goals">
+        <h2>What I Want to Be</h2>
+        <p>In the future, I aspire to become a Programmer and software developer.</p>
+    </section>
+
+    <!-- Section: Previous Project -->
+    <section id="project">
+        <h2>Check Out My Previous Project</h2>
+        <a href="https://github.com/yourusername/yourproject" target="_blank">My Previous Project</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SOJOUD QUSINI</p>
+    </footer>
+</body>
+</html>
